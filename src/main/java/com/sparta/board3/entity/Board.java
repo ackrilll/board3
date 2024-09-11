@@ -27,4 +27,9 @@ public class Board extends Timestamped{
         this.title = title;
         this.content = content;
     }
+
+    public void updateBoard(String title, String content) {
+        this.title = title;
+        this.content = content;
+    }
 }
